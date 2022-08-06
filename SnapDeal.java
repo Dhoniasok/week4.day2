@@ -59,8 +59,6 @@ public class SnapDeal {
 			  System.out.println("Stale element exception"); } 
 		 catch(StaleElementReferenceException e) {
 			  System.out.println("StaleElementRefrence exception"); }
-		 //verify the all applied filters 
-        System.out.println("All the filters are applied successfully");
         //Mouse Hover on first resulting Training shoes
       WebElement ele2= driver.findElement(By.xpath("//img[@class='product-image wooble']"));
       //click QuickView button
